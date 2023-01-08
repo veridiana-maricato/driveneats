@@ -45,7 +45,7 @@ beverages.forEach((beverage) => {
     if (selectedMeals.length === 3) {
       selectBtn.disabled = false;
       selectBtn.classList.add('order-button');
-      selectBtn.innerText = 'Fechar pedido!';
+      selectBtn.innerText = 'Fechar pedido';
     }
   });
 });
@@ -66,7 +66,7 @@ desserts.forEach((dessert) => {
     if (selectedMeals.length === 3) {
       selectBtn.disabled = false;
       selectBtn.classList.add('order-button')
-      selectBtn.innerText = 'Fechar pedido!';
+      selectBtn.innerText = 'Fechar pedido';
     }
   });
 });
